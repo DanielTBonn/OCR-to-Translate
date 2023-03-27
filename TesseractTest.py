@@ -3,7 +3,7 @@ import pytesseract
 import cv2
 import sys
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 def get_image(img,resizer):
     img_cv = cv2.imread(img)
